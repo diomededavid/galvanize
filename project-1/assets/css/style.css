@@ -83,8 +83,7 @@ img {
 /* Nav */
 .nav {
   background: #969696;
-  
-  padding: 20px;
+    padding: 20px;
   -ms-flex: 0 12%;
   -webkit-box-flex: 0;
   -moz-box-flex: 0;
