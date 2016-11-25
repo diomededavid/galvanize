@@ -1,0 +1,164 @@
+
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+	
+*/
+
+ html, body {
+    margin: 0;
+    height:100%;
+}
+body {
+	background: #969696;
+}
+
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6, p, ul, li, blockquote {
+	font-family: 'Catamaran', sans-serif;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	color: #212121;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	text-align: right;
+	margin: 20px 0;
+}
+
+p a:link, p a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 21px;
+	line-height: 130%;
+	font-weight: 400;
+	color: #212121;
+	text-align: center;
+}
+
+.rwd-line {
+	display: block;
+}
+
+/* Branding */
+.logo {
+    display: block;
+    content: url(../logo/D2Design-logo.svg);
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+/* Images */
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+
+
+/* Nav */
+.nav {
+  background: #969696;
+  
+  padding: 20px;
+  -ms-flex: 0 12%;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -ms-box-flex: 0;
+  box-flex: 0; 
+  position: fixed;
+  
+}
+
+.nav-menu {
+	width: 100%; 
+	margin: 0;
+	float: left;
+	clear: right;
+	background: #969696;
+}
+
+/* Grid */
+
+.container {
+  height: 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  background: #969696;
+ 
+ }
+ 
+ .main {
+	background: #fff;
+ }
+ 
+/*
+ .row{
+	width: 100%; 
+	max-width: 100%; 
+	margin: 0;
+	float: left;
+	clear: right;
+	background: #fff;
+}
+*/
+ 
+
+.column-3 {
+	width: 28%;
+	display: inline-block;
+	float: left;
+	background: #212121;
+
+}
+
+.column-9 {
+	width: 90%;
+	background: #fff;
+	padding: 40px;
+}
+
+@media (max-width: 544px) { 
+	
+	.column-3 {
+		width: 100%;
+		margin: 0 ;
+		padding: 0;
+		}
+	
+	h3 {
+		font-size: 18px;
+		line-height: 130%;
+		font-weight: 400;
+		color: #212121;
+		text-align: center;
+		}	
+}
+
