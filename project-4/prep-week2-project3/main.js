@@ -23,11 +23,12 @@ var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
 
 var text = "";
 var i;
-for (i = 0; i < livingRoom.length; i++) {
-    text += "<p>" + livingRoom[i] ;
-}
 
-document.getElementById("q1").innerHTML = text;
+	for (i = 0; i < livingRoom.length; i++) {
+	    text += "<p>" + livingRoom[i] ;
+	}
+	
+	document.getElementById("q1").innerHTML = text;
 
 
 
@@ -35,38 +36,72 @@ document.getElementById("q1").innerHTML = text;
 
 // 2. Using a loop, log numbers 22-33 within their own paragraphs.
 
-var numbersCount = ['22', '23'];
+var numbersCount = [22, 23];
 var i;
 var text2 = "";
 
-for (i = 0; i < numbersCount.length; i++) {
-	text2 += "<p>" + numbersCount[i];
+	for (i = 0; i < numbersCount.length; i++) {
+		text2 += "<p>" + numbersCount[i];
+		
+	}
 	
-}
-
-document.getElementById("q2").innerHTML = text2;
+	document.getElementById("q2").innerHTML = text2;
 
 
 
 // 3. Using a similar loop, log numbers 75 to 100, only in increments of five.
-
-
-
-
+  var count = [];
+  var increment= 5;
+  var text3 = "";
+           
+        for(count= 75; count <= 100; increment + count++){
+            text3 += count + " ";
+        }
+     
+        document.getElementById("q3").innerHTML = text3;
+         
 
 // 4. Write a while loop that displays paragraphs of "This is how a professional loops." to the HTML page 5 times.
 
 
-
-
+var comment = "This is how a professional loops.";
+var i = 0;
+var text = "";
+	
+	while (i < 5) {
+	    text += "<p>" + comment;
+	    i++;
+	}
+	
+	document.getElementById("q4").innerHTML = text;
 
 
 // 5. Separately, use both a for loop and while loop to do the same thing.
 //     Display in unique paragraphs the sentence "At home, I have _____ cats."
 //     The numbers should range from 10 to 110, in increments of 25.
 
+ var count1 = [];
+ var increment1 = 25;
+ var text5 = "";
+           
+        for(count1 = 10; count1 <= 110; increment1 + count1++){
+            text5 += "<p>" + "At home, I have " + count1 + " dogs.";
+        }
+     
+        document.getElementById("q5").innerHTML = text5;
+        
+        
+ var count2 = [];
+ var increment1 = 25;
+ var text5 = "";
+           
+        while (count2 < 110) {
+	       text5 += "<p>" + "At home, I have " + count2 + " cats.";
+	       increment + count2++;
+        }
 
-
+        document.getElementById("q5a").innerHTML = text5;
+        
 
 
 // 6. Given the following Array, display in unique paragraphs'Even' if the number is even, 'Even and greater than 10' if the
