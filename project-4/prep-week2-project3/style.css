@@ -56,6 +56,17 @@ input[type=text] {
     margin: 8px 0;
 }
 
+.row {
+	width: 100%;
+	padding: 20px;
+	
+}
+
+.2-col !important {
+	width: 50%;
+	float: left;
+}
+
 button {
 	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
