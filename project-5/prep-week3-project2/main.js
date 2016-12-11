@@ -25,7 +25,10 @@ ADVANCED TRACK: 10-13
 //    and outputs the smaller number into the HTML page.
 
 
-
+function minimum() {
+	document.getElementById("q1").innerHTML += 
+		
+};
 
 
 // 2. Create a new function called minimum3(), 
